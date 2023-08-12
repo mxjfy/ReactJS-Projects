@@ -1,8 +1,12 @@
-# React + Vite
+# #React News Aplication Setup
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Step 1:-** Download or Clone the project file. \
+**Step 2:-** Run npm install or npm i command (npm should be installed to run this command) \
+**Step 3:-** Go to Project File and create ".env.local". \
+**Step 4:-** Open .env.local file add this line "VITE_REACT_NEWS_API='YOUR_API_KEY';" \
+**Step 5:-** Go to https://newsapi.org/ create account and add your ApiKey in step 4 \
+**Step 6:-** After adding apikey run **npm run dev** command it will open a developement server in your machine, press "o" to open application in browser
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+### #Let me know if you get any problem
