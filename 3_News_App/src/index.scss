@@ -1,0 +1,85 @@
+
+// Tailwind Dependencies
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind variants;
+
+
+// Navbar Starts
+.nav-btn{ 
+    @apply block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700;
+    font-size: 20px;
+
+}
+.nav-btn-live{
+    color: red;
+    &:hover{
+        color: blue;
+    }
+}
+
+// dropdown  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    border: none;
+    outline: none;
+    color: black;
+    margin: 0;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+// Navbar Ends
+
+// scss code
+.news-thumbnail{
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    transition: all .2s ease-in-out;
+    &:hover{
+        transform: scale(1.1);
+    }
+}
+
+// loader css
+.loader_gif{
+    top: 35%;
+    left: 50%;
+}
+
+#scrollTop{
+  height: 50px;
+  width: 50px;
+  font-size: 2rem;
+  background-color: black;
+  color: white;
+  text-align: center;
+  border-radius: 100%;
+  cursor: pointer;
+}
